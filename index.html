@@ -2,14 +2,15 @@
     <head>
         <title>Profile</title>
         <meta name='viewport' content='width=device-width, initial-scale=1'>
-        <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         </head>      
         <style>
             .back
             {
-                background-color;
                 margin-top:100px;
             }
             .image
@@ -21,10 +22,19 @@
             }
             .image1
             {
+                height:100px;
+                width:150px;
+                border-radius:30%;
+                margin-bottom:40px;
+            }
+            .image2
+            {
                 height:200px;
                 width:250px;
                 border-radius:30%;
-                margin-bottom:40px;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
             }
             .text
             {
@@ -33,14 +43,20 @@
             .hobby
             {
                 text-align: center;
-                background-color:#D1F2EB;
-                font-family: 'Lucida Sans';
+                font-family:'Lucida Sans';
                 margin-bottom:40px;
+                text-decoration-line: underline;
+                text-decoration-style: double;
             }
+            
             .map
             {
-                margin-top:150px;
+                margin-top:350px;
                 margin-bottom:60px;
+            }
+            h2
+            {
+                text-align:center;
             }
         </style>
     </head>
@@ -51,20 +67,26 @@
                 <div class="back">
                     <div class="col-md-2"></div>
                     <div class="col-md-2">
-                        <img src="image/DSC05828.JPG" class="image">
+                        <img src="image/image.jpg" class="image">
                         <h3>Shweta Sharma</h3>
                     </div>
                     <div class="col-md-6">
                         <h3 class="text">I'm post graduated in Computer Application from IGNOU.</br>Self-motivated, highly passionate and hardworking fresher seeking a challenging position in a reputable organization to expand and utilize my learning, skills and knowledge. Flexible to work in any environment as required.</h3>
+                        <a href="https://www.linkedin.com/in/shweta-sharma-815805244/" target="_blank"><img src="image/download.png" style="height:50px; width:50px"></a>
+                        <a href="https://github.com/Shweta1704sh" target="_blank"><img src="image/downloadgit.png" style="height:50px; width:50px"></a>
+                        <a href="https://stackoverflow.com/users/19634540/shweta-sharma" target="_blank"><img src="image/stack.png" style="height:50px; width:50px"></a>
+                        <a href="#" target="_blank"><img src="image/facebook-icon.png" style="height:50px; width:50px"></a>
+                        <a href="#" target="_blank"><img src="image/instagram-logo.png" style="height:50px; width:50px"></a>
                     </div>
                 </div>
             </div>
+            <hr/>
             <!--Skill div-->
             <div class="row">
                 <h1 class="hobby">Skills</h1>
                 <div class="col-md-1"></div>
                 <div class="col-md-2">
-                    <img src="image/html.jpg" class="image1">
+                    <img src="image/html1.jpg" class="image1">
                 </div>
                 <div class="col-md-2">
                     <img src="image/css.jpg" class="image1">
@@ -75,21 +97,29 @@
                 <div class="col-md-2">
                     <img src="image/javas.jpg" class="image1">
                 </div>
+                <div class="col-md-2">
+                    <img src="image/php1.jpg" class="image1">
+                </div>
             </div>
+            <hr/>
             <!--Hobby div-->
             <div clas="row">
                 <h1 class="hobby">Hobbies</h1>
                 <div class="col-md-3">
-                    <img src="image/cart.jpg" class="image1">
+                    <img src="image/cart.jpg" class="image2">
+                    <h2>Shopping</h2>
                 </div>
                 <div class="col-md-3">
-                    <img src="image/travel.jpg" class="image1"> 
+                    <img src="image/travel.jpg" class="image2"> 
+                    <h2>Travelling</h2>
                 </div>
                 <div class="col-md-3">
-                    <img src="image/cooking.jpg" class="image1">
+                    <img src="image/cooking.jpg" class="image2">
+                    <h2>Cooking</h2>
                 </div>
                 <div class="col-md-3">
-                    <img src="image/music.jpg" class="image1">
+                    <img src="image/music.jpg" class="image2">
+                    <h2>Listening music</h2>
                 </div>
             </div>
             <!--Map div-->
@@ -102,22 +132,7 @@
             <hr/>
             <!--Footer div-->
             <footer>
-                <div class="col-md-2"></div>
-                <div class="col-md-2"> 
-                    <a href="https://www.linkedin.com/in/shweta-sharma-815805244/" target="_blank"><img src="image/download.png" style="height:50px; width:50px"></a>
-                </div>
-                <div class="col-md-2"> 
-                    <a href="https://github.com/Shweta1704sh" target="_blank"><img src="image/downloadgit.png" style="height:50px; width:50px"></a>
-                </div>
-                <div class="col-md-2"> 
-                    <a href="https://stackoverflow.com/users/19634540/shweta-sharma" target="_blank"><img src="image/stack.png" style="height:50px; width:50px"></a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#" target="_blank"><img src="image/facebook-icon.png" style="height:50px; width:50px"></a>
-                </div>
-                <div class="col-md-2">
-                    <a href="#" target="_blank"><img src="image/instagram-logo.png" style="height:50px; width:50px"></a>
-                </div>
+                <center><b>&copy;My resumes</b></center>
             </footer>
         </div>
     </body>
